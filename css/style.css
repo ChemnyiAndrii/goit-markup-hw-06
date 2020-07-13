@@ -52,6 +52,7 @@ ul {
 .logo-web {
   color: var(--nav-color);
 }
+.logo-menu-link {
   position: relative;
   font-size: 14px;
   line-height: 16px;
@@ -64,8 +65,8 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.logo-menu-link::after{
-  content: " ";
+.logo-menu-link::after {
+  content: ' ';
   display: block;
   width: 100%;
   height: 4px;
