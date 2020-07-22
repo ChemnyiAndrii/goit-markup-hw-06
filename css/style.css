@@ -34,11 +34,10 @@ ul {
 /*ПАНЕЛЬ НАВІГАЦІЇ*/
 .conteiner {
   max-width: 1600px;
-  display:flex;
+  display: flex;
   border-bottom: 1px solid #ececec;
-  margin: 0  auto;
+  margin: 0 auto;
   background-color: var(--footer-color);
-  
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -48,7 +47,6 @@ ul {
   margin-top: 24px;
   margin-bottom: 24px;
   margin-left: auto;
-  
 }
 .logo-web {
   color: var(--nav-color);
@@ -64,16 +62,16 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.logo-menu-contact-data{
+.logo-menu-contact-data {
   color: #757575;
   font-size: 14px;
   line-height: normal;
   letter-spacing: 0.02em;
   margin-left: 10px;
-  }
+}
 .logo-menu-link::after {
   content: ' ';
-  
+
   width: 100%;
   height: 4px;
   background-color: #2196f3;
@@ -86,14 +84,13 @@ ul {
   transition-property: opacity, transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 .logo-menu-link:hover,
 .logo-menu-link:focus-within {
   color: var(--nav-color);
 }
 .logo-menu-link:hover::after,
-.logo-menu-link:focus-within::after{
+.logo-menu-link:focus-within::after {
   opacity: 1;
   transform: scaleX(1);
 }
@@ -102,7 +99,6 @@ ul {
 .logo-menu-contact {
   display: flex;
   margin: auto;
-  
 }
 
 .logo-menu li:not(:first-child) {
@@ -125,9 +121,9 @@ ul {
 .logo-menu-contact-conteiner:focus-within .logo-menu-contact-data {
   color: var(--nav-color);
 }
-.logo-menu-contact-conteiner{
+.logo-menu-contact-conteiner {
   display: inline-flex;
-  
+
   align-items: center;
 }
 
@@ -169,7 +165,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-top: 12px;
-  
 }
 .footer-social-list {
   display: flex;
@@ -210,9 +205,9 @@ ul {
   color: var(--footer-color);
   display: inline-flex;
   margin-top: 35px;
-  
+
   align-items: center;
-  
+
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -323,7 +318,6 @@ ul {
   border-radius: 5px;
   margin-right: 10px;
   max-height: 404px;
-  
 }
 .project li:nth-child(3n) {
   margin-right: 0px;
@@ -426,8 +420,8 @@ ul {
   transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1), all;
 }
 .baner-bottom:hover,
-.baner-bootom:focus-within{
-  background: #188CE8;;
+.baner-bootom:focus-within {
+  background: #188ce8;
 }
 /*Переваги*/
 .our-goods {
@@ -560,14 +554,14 @@ ul {
   margin-top: 50px;
   width: 1170px;
 }
-.team-card-comteiner{
+.team-card-comteiner {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .team-card > li {
   width: 270px;
-  
+
   background: #ffffff;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -719,7 +713,7 @@ ul {
   flex-direction: column;
   padding: 40px;
 }
-.form h2{
+.form h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -746,7 +740,7 @@ ul {
   margin-top: 30px;
   padding: 12px 16px;
 }
-.form-textarea::placeholder{
+.form-textarea::placeholder {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
